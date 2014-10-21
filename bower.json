@@ -1,0 +1,26 @@
+{
+  "name": "Nota",
+  "version": "0.0.0",
+  "authors": [
+    "Muhammad Negm <alam.hor@gmail.com>"
+  ],
+  "directory": "node_modules/",
+  "description": "A desktop app",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [],
+  "dependencies": {
+    "pen": "~0.0.3",
+    "to-markdown": "~0.0.2",
+    "jquery": "~2.1.1",
+    "showdown": "~0.3.1",
+    "jspdf": "~1.0.272"
+  }
+}

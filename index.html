@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Nota - Light editor for content writers
+    </title>
+    <link rel="stylesheet" type="text/css" href="node_modules/pen/src/pen.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body >
+<div id="content">
+    <div id="toolbar">
+        <input id="fileHTMLOutput" class="custom-file-input downhtml" type="file"  nwsaveas/>
+        <input id="fileMDOutput" class="custom-file-input downmd" type="file"   nwsaveas/>
+        <input id="filePDFOutput" class="custom-file-input downpdf" type="file"   nwsaveas/>
+        <input id="fileInput" class="custom-file-input uploadpdf" type="file"/>
+        <br>
+          <span id="mode" class="icon-mode">
+          </span>
+          <span id="hinted" class="icon-pre disabled" title="Toggle Markdown Hints">
+          </span>
+          <span id="textdirection" class="icon-textdirection disabled" title="Toggle Text Direction">
+          </span>
+          <span id="printme" class="icon-printme" title="Toggle Text Direction">
+          </span>
+    </div>
+</div>
+<div id="inner-content">
+<div id="pen_editor" data-toggle="pen" data-placeholder="Start Writing nHere..." class="pen pen-placeholder" contenteditable="true" style="-webkit-user-select:text;"></div>
+</div>
+<footer style="-webkit-app-region: drag">
+
+</footer>
+<script src="titlebar.js"></script>
+<script src="frameless_window.js"></script>
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="node_modules/pen/src/pen.js"></script>
+<script type="text/javascript" src="node_modules/pen/src/markdown.js"></script>
+<script src="node_modules/showdown/compressed/showdown.js"></script>
+<script type="text/javascript" src="custom.js"></script>
+
+
+
+</body>
+</html>
